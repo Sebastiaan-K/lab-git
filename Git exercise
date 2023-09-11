@@ -1,0 +1,82 @@
+1 First of all, install git if you don't have it yet, and create a GitHub account. ( You can refer to the lesson "Install Git and Create GitHub Account" in the prework. Follow the guidelines given there. Additionally, you can use these resources: Install git, Version control with git)
+
+Solution:
+Install git!
+
+2 Create a new repository in the GitHub. Name it Iron+ your name. Example: if your name is Alvaro, you will name the repo IronAlvaro.
+
+Solution:
+IronSebastiaan
+
+3 Clone that repo to your computer.
+
+Solution:
+git clone https://github.com/Sebastiaan-K/IronSebastiaan.git
+
+4 Create a file in that folder. Name it about.txt and add a fun fact about yourself. (You can use the command line: touch nameOfTheFile.txt).
+
+Solution:
+touch funfact.txt
+echo "I LOVE GIT" > funfact.txt
+
+5 Add the file you just created to the git.
+
+Solution:
+git add --all
+
+6 Commit the changes.
+
+Solution:
+git commit -m "first commit"
+
+7 Push the changes to the GitHub and check your repository to make sure everything is there.
+
+Solution:
+git push origin master
+
+Pair Programming Exercise
+Pair yourself with a classmate. Send the link of your GitHub repository to your pair via Slack. Now each of you should perform the following set of actions:
+
+8 Fork your classmate's repository.
+
+Solution:
+Fork in git!
+
+9 Clone the repository, so that you have it locally and can make changes.
+
+Solution:
+cd Ironhack
+git clone https://github.com/Sebastiaan-K/IronPaul.git
+
+10 Create a new branch named classmate.
+
+Solution:
+git branch clasmate
+
+
+11 Create a new file with your name (ex. maya.txt) and finish the following sentence I enrolled Ironhack's Data Analytics bootcamp because.... When you are done, save the changes.
+
+Solution:
+I enrolled Ironhack's Data Analytics bootcamp because i want to become a data analyst! Sebastiaan.txt
+
+12 Add the changes to the git.
+
+Solution:
+git add -A
+
+13 Commit and push the changes. Now, all the changes should be on your GitHub, inside the forked repository.
+
+Solution:
+git commit -m "Added Sebastiaan.TXT"
+git push
+
+14 Create a pull request to make changes appear in the original repository.
+
+Solution:
+Send pull request on github
+
+15 Merge the branch your classmate created. Now everyone's repos should have the original file (about.txt) as well as the new one with your classmate's name.
+
+Solution:
+Merge on github
+
